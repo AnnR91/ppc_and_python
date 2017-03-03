@@ -1,2 +1,2 @@
 # Protein-protein complexes and Python
-The repository contains data for a class I am teaching.
+The repository contains codes for a class I am teaching.
