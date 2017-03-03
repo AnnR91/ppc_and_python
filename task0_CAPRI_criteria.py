@@ -31,5 +31,5 @@ for line in properties_file:
     lrmsd = float(spline[4])
     fnat = float(spline[5])
     classification = get_classification(irmsd, lrmsd, fnat)
-    output.write('%s %s\n'%(number_to_structure[number], classification))
+    output.write('%s\t%s\n'%(number_to_structure[number], classification))
 output.close()
