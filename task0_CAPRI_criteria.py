@@ -15,15 +15,15 @@ def get_classification(irmsd, lrmsd, fnat):
         return "NO_CATEGORY"
 
 number_to_structure = {}
-map_file = open("C:\\development\\sources\\task1_mapfile.txt").readlines()
+map_file = open("C:\\development\\sources\\task0_mapfile.txt").readlines()
 for line in map_file:
     spline = line.strip().split()
     structure = spline[0].replace('1kxp_','').replace('la','a').replace('lb','b').replace('lc','c').replace('ld','d')
     number = spline[1]
     number_to_structure[number] = structure
 
-properties_file = open("C:\\development\\sources\\task1_properties.txt").readlines()
-output = open("C:\\development\\workdir\\task1_output.txt", 'w')
+properties_file = open("C:\\development\\sources\\task0_properties.txt").readlines()
+output = open("C:\\development\\workdir\\task0_output.txt", 'w')
 for line in properties_file:
     spline = line.split()
     number = spline[1]
