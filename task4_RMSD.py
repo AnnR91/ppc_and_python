@@ -1,6 +1,7 @@
 from math import sqrt
 from task3_readPDB import read_pdb_file
 
+
 def get_rmsd(s1, s2):
     """
     :param s1: x,y,z coordinates of structure 1

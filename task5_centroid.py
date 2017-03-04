@@ -2,6 +2,7 @@ from task3_readPDB import read_pdb_file
 #import sys
 import argparse
 
+
 def get_centroid(s):
     """
     :param s: x,y,z coordinates of structure
